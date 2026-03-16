@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="author" content="Marco Melgar">
+  <title>To-Do List</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header id="header">
+        <h1>To-Do List</h1>
+  </header>
+  <div id="error-alert" style="display:none; background:#f8d7da; color:#842029; border:1px solid #f5c2c7; padding:10px 16px; margin-bottom:12px; border-radius:4px;"></div>
+  <div class="container">
+    <form id="task-form">
+      <input type="text" id="task-input" placeholder="Nueva tarea..." required>
+      <button type="submit">Agregar</button>
+    </form>
+    <ul id="task-list">
+      
+    </ul>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>

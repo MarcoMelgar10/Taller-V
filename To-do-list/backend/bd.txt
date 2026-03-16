@@ -1,0 +1,5 @@
+CREATE TABLE task(
+id serial NOT NULL,
+isComplete boolean DEFAULT FALSE,
+name varchar(40)
+);
